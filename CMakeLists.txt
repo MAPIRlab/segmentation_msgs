@@ -14,6 +14,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	
 	msg/SemanticInstance2D.msg
 	msg/SemanticPointCloud.msg
+	msg/InstanceSemanticMap.msg
 	srv/SegmentImage.srv
 
     DEPENDENCIES std_msgs sensor_msgs vision_msgs
